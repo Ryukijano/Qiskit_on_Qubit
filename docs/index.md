@@ -34,4 +34,3 @@ Feel free to reach out if you have any questions or suggestions. You can contact
 ## Styles
 
 To ensure a modern and visually appealing design, we have included custom styles. The site is responsive and looks good on all devices.
-

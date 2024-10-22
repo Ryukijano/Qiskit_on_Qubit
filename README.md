@@ -15,4 +15,4 @@ Quantum computers harness the unique behaviour of quantum physics: such as super
 Fundamentals of Quantum Algorithms implemented using Qiskit at [IBM Quantum Experience](https://quantum-computing.ibm.com/). In this repository I will be sharing my experiences, daily learnings and accomplishments with regard to this booming technology.
 
 ## GitHub Pages
-This repository has a GitHub Pages site that provides detailed explanations about the repository and includes a code space. You can visit the site [here](https://ryukijano.github.io/Qiskit_on_Qubit/).
+This repository has a GitHub Pages site that provides detailed explanations about the repository, a code space, and visualizations for quantum simulations and quantum machine learning simulations. You can visit the site [here](https://ryukijano.github.io/Qiskit_on_Qubit/).
