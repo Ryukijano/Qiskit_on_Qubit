@@ -14,5 +14,23 @@ Quantum computers harness the unique behaviour of quantum physics: such as super
 ## What does this repository contain?
 Fundamentals of Quantum Algorithms implemented using Qiskit at [IBM Quantum Experience](https://quantum-computing.ibm.com/). In this repository I will be sharing my experiences, daily learnings and accomplishments with regard to this booming technology.
 
+## Quantum Variational Autoencoder (QVAE)
+This repository includes an implementation of a Quantum Variational Autoencoder (QVAE) using Qiskit. The QVAE is trained on the MNIST dataset for encoding and decoding images. The implementation can be found in the `Quantum_VAE.ipynb` notebook.
+
+### Usage Instructions
+1. Load and preprocess the MNIST dataset.
+2. Define the QVAE model with parameterized quantum circuits as the encoder and decoder.
+3. Train the QVAE model on the MNIST dataset.
+4. Visualize the reconstructed and generated data.
+
+## Raytracing with QVAE
+This repository also includes an implementation of a raytracing algorithm integrated with the QVAE. The QVAE is used to encode data into a lower-dimensional latent space, which is then used as input to the raytracing algorithm. The implementation can be found in the `Raytracing.ipynb` notebook.
+
+### Usage Instructions
+1. Load the trained QVAE parameters.
+2. Define the QVAE encoder and decoder functions.
+3. Define a function to generate a scene based on QVAE encoded data.
+4. Generate and visualize the raytraced image using the QVAE encoded data.
+
 ## GitHub Pages
 This repository has a GitHub Pages site that provides detailed explanations about the repository and includes a code space. You can visit the site [here](https://ryukijano.github.io/Qiskit_on_Qubit/).
