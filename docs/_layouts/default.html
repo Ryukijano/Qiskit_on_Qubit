@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/Quantum_VAE' | relative_url }}">Quantum VAE</a></li>
+                <li><a href="{{ '/Raytracing' | relative_url }}">Raytracing</a></li>
+                <li><a href="{{ '/quantum_deep_learning_mnist' | relative_url }}">Quantum Deep Learning with MNIST</a></li>
+                <li><a href="{{ '/quantumGAN' | relative_url }}">Quantum GAN</a></li>
+                <li><a href="{{ '/Quantum_Diffusion' | relative_url }}">Quantum Diffusion</a></li>
+                <li><a href="{{ '/Quantum_Neural_Networks_IRIS' | relative_url }}">Quantum Neural Networks with IRIS</a></li>
+                <li><a href="{{ '/TeleportationAlgo' | relative_url }}">Teleportation Algorithm</a></li>
+                <li><a href="{{ '/TheQuantumError' | relative_url }}">The Quantum Error</a></li>
+                <li><a href="{{ '/X-Gate' | relative_url }}">X-Gate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+    </footer>
+</body>
+</html>
